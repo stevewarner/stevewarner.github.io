@@ -84,10 +84,10 @@ footer {
     font-size: .8em;
 }
 
-#footer ul {
+.footer ul {
     list-style-type: none; 
 }
-#footer li {
+.footer li {
     text-align: center;
     text-decoration: none !important; 
     text-decoration-color: black !important;
