@@ -79,19 +79,4 @@ body {
     font-weight: 200;
 }
 
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
-.footer ul {
-    list-style-type: none; 
-}
-.footer li {
-    text-align: center;
-    text-decoration: none !important; 
-    text-decoration-color: black !important;
-    font-weight: 100;
-    display: inline;
-    padding: 5px; 
-}
