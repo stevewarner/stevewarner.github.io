@@ -68,11 +68,12 @@ body {
 
 .main {
     margin: 100px 60px 0 60px;
+    width: 60%;
     padding: 40px;
     font-family: "Helvetica Neue";
     font-weight: 100;
     white-space: pre-wrap;
-    text-align: center !important;
+    text-align: left !important;
 }
 
 .main p {
