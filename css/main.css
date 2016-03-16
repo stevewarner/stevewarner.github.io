@@ -24,7 +24,7 @@ a:hover {
 }
 
 .image {
-    background: transparent url("images/me.png") no-repeat 0 0;
+    background: url("images/me.png") no-repeat 0 0;
     height: 300px;
     width: 300px;
 }
