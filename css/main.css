@@ -29,7 +29,7 @@ a:hover {
 .image {
     background: url("../images/me.png") no-repeat 0 0;
     background-size: 400px 400px;
-    position: absolute; left: -350px;
+    position: absolute; left: 350px; top: 100px;
     height: 436px;
     width: 436px;
     zoom: 75%;
