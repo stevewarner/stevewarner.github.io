@@ -6,7 +6,7 @@ html {
 body {
     background: #fff;
     color: #555;
-    font: 400 18px/24px 'Lato';
+    font: 400 18px/24px 'Lato' sans-serif;
     height: 100%;
     margin: 0;
 }
