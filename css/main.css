@@ -57,7 +57,10 @@ text-align: justify;
 
 }
 
-@media (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
+    #container {
+        margin-left: 35%;
+    }
     
 }
 
