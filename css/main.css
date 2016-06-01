@@ -73,10 +73,10 @@ text-align: justify;
 @media screen and (max-width: 1000px) {
     #container {
         margin: 0;
-        padding: 8%;
+        padding: 20%;
         position: relative;
         top: auto;
-        width: 84%;
+        width: 80%;
     }
     h1 {
         font-size: 36px;
