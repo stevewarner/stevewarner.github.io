@@ -64,7 +64,7 @@ text-align: justify;
     .image {
     background: url("../images/me3.png") no-repeat 0 0;
     background-size: 160px 160px;
-    position: absolute; left: 200px; top: 100px;
+    position: absolute; left: 300px; top: 100px;
     height: 160px;
     width: 160px;
     }
