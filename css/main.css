@@ -57,6 +57,8 @@ text-align: justify;
 
 }
 
+/* Break points ------------------ */
+
 @media screen and (max-width: 1220px) {
     #container {
         margin-left: 35%;
