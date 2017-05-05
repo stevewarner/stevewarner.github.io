@@ -25,6 +25,10 @@ a:hover {
     color: #fff;
 }
 
+.navbar-default {
+    border-color: transparent;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -35,7 +39,7 @@ a:hover {
 }
 
 header {
-    background-image: url('https://unsplash.it/1080/960/?random');
+    background-image: url('../images/cosmic-timetraveler-29758.jpg');/* https://unsplash.it/1080/960/?random */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -84,7 +88,9 @@ nav {
 }
 
 .navbar-transparent {
-	background: transparent;
+    background: #333; /* changed from transparent */
+    opacity: .3;
+	
 	padding: 15px 0;
 	border: none;
 }
@@ -133,5 +139,5 @@ nav {
 }
 
 footer {
-    margin: 40px 0;
+    margin: 20px 0;
 }
