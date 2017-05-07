@@ -20,6 +20,11 @@ a:hover {
     text-decoration: none;
 }
 
+nav a {
+    color: #fff !important;
+}
+
+
 .navbar-default .navbar-toggle {
     border: none;
     color: #fff;
@@ -27,6 +32,7 @@ a:hover {
 
 .navbar-default {
     border-color: transparent;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .img-centered {
@@ -83,20 +89,10 @@ nav {
 	transition: padding 0.5s, color 0.5s;
 }
 
-.navbar {
-    opacity: .8;
-}
-
 .navbar-transparent {
-    background: #333; /* changed from transparent */
-    opacity: .3;
-	
+    background: transparent; 
 	padding: 15px 0;
 	border: none;
-}
-
-.navbar-transparent a {
-	color: white !important;
 }
 
 .img-full{
@@ -108,14 +104,6 @@ nav {
     background-size: cover;
     height: auto;
     width: 100%;
-    left: 0;
-    right: 0;
-}
-
-.billboard {
-    position: absolute;
-    top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
 }
