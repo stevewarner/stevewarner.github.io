@@ -35,10 +35,6 @@ nav a {
     background-color: rgba(0,0,0,0.5);
 }
 
-.img-centered {
-    margin: 0 auto;
-}
-
 .brand-text {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
@@ -95,17 +91,8 @@ nav {
 	border: none;
 }
 
-.img-full{
-    position:absolute;
-    z-index:1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width: 100%;
-    left: 0;
-    right: 0;
+img {
+    max-width: 100%;
 }
 
 .img-circle {
