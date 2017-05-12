@@ -26,8 +26,13 @@ nav a {
 
 
 .navbar-default .navbar-toggle {
+    background-color: transparent;
     border: none;
     color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
 }
 
 .navbar-default {
@@ -43,7 +48,7 @@ nav a {
 header {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
