@@ -12,8 +12,13 @@ h1, h2, h3, h4, p {
   
 }
 
+h4 {
+    
+}
+
 p {
     line-height: 1.5em;
+    font-size: 18px;
 }
 
 a {
@@ -42,6 +47,7 @@ header {
 .sidebar {
     flex: 2 1 auto;
     background: #0f0c29; 
+    background: #274B7D;
     color: #fff;
     padding: 9em 20px;
     align-items: center;
