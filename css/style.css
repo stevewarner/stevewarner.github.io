@@ -77,16 +77,21 @@ header {
     color: #dedede;
 }
 
+.sidebar span a {
+    font-size: 1.5em;
+}
+
 .sidebar img {
     justify-content: center;
     max-width: 250px;
     border-radius: 50%;
     margin-top: 20px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
 
 header .description {
     flex: 1 1 60%;
-    padding: 60px 4em;
+    padding: 60px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +101,7 @@ header .description {
 section {
     display: flex;
     flex-flow: row wrap;
-    padding: 80px 20px;
+    padding: 80px 40px;
 }
 
 .wrap-reverse {
@@ -105,8 +110,8 @@ section {
 }
 
 .project-description {
-    flex: 1 1 50%;
-    padding: 20px;
+    flex: 1 0 50%;
+    padding: 40px;
 }
 
 .project-img {
@@ -142,4 +147,17 @@ footer a:hover {
     -ms-transform: translateY(-2px);
     -o-transform: translateY(-2px);
     transform: translateY(-2px);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding:40px 20px;
+    }
 }
