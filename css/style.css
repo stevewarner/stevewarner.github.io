@@ -1,11 +1,9 @@
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
   font-size: 18px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  /*font-family: 'Roboto', sans-serif;*/
   background: #fff;
   color: #333;
   width: 80%;
