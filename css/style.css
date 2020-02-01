@@ -19,7 +19,7 @@ body * {
 }
 
 main {
-  padding: 60px 0 0 0;
+  padding: 40px 0 0 0;
   max-width: 700px;
 }
 
@@ -63,6 +63,10 @@ footer {
   body {
     width: 50%;
     margin: 60px auto;
+  }
+  main {
+    padding: 80px 0 0 0;
+    max-width: 700px;
   }
   footer {
     text-align: start;
