@@ -1,6 +1,7 @@
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,
+    Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -25,10 +26,13 @@ main {
 
 h1,
 h2,
-p,
 a,
 ul {
   margin: 0;
+}
+
+p {
+  margin: 0 0 20px 0;
 }
 
 h1 {
@@ -46,18 +50,12 @@ h2 {
   margin: 0 0 14px 0;
 }
 
-header,
 section {
   margin: 0 0 20px 0;
 }
 
 section ul {
   padding-left: 16px;
-}
-
-footer {
-  text-align: center;
-  margin: 0 0 16px 0;
 }
 
 /* Media Queries */
