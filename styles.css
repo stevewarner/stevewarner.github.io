@@ -29,6 +29,7 @@ ul li:before {
     white-space: pre;
     font-family: monospace;
     font-size: calc(.75vw * .8);
+    line-height: calc(.75vw * .8);
     letter-spacing: unset;
     transform: unset;
     overflow: hidden;
@@ -67,6 +68,7 @@ marquee {
 
     .ascii {
         font-size: calc(.55vw * .8);
+        line-height: calc(.55vw * .8);
     }
 }
 
@@ -82,6 +84,7 @@ marquee {
     .ascii {
         order: 1;
         font-size: calc(.55vw / 2 * .8);
+        line-height: calc(.55vw / 2 * .8);
     }
 
     .content, .ascii {
