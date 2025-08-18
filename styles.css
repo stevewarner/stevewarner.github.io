@@ -1,0 +1,95 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li:before {
+    content: '✻';
+    position: absolute;
+    left: -1.5em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ascii {
+    margin: 0;
+    white-space: pre;
+    font-family: monospace;
+    font-size: calc(.75vw * .8);
+    line-height: 1.1;
+    letter-spacing: unset;
+    transform: unset;
+    overflow: hidden;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="font-size: 20px;"><text y="15">👋</text></svg>'), auto;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.project {
+    h4 {
+        margin: 0;
+    }
+    padding: .5rem .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .75rem;
+}
+
+marquee {
+    margin: 1rem -16px;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .ascii {
+        font-size: calc(.55vw * .8);
+    }
+}
+
+@media (min-width: 900px) {
+    .main {
+        margin: 8rem auto 0;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .ascii {
+        order: 1;
+        font-size: calc(.55vw / 2 * .8);
+    }
+
+    .content, .ascii {
+        max-width: 50%;
+    }
+
+    .project-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
