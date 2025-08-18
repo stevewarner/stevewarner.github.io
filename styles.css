@@ -73,6 +73,7 @@ marquee {
 @media (min-width: 900px) {
     .main {
         margin: 8rem auto 0;
+        max-width: 900px;
     }
 
     .header {
