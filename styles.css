@@ -25,22 +25,21 @@ ul li:before {
 }
 
 .ascii {
-    margin: 0;
+    margin: 0 auto;
     white-space: pre;
     font-family: monospace;
-    font-size: calc(.75vw * .8);
-    line-height: calc(.75vw * .8);
+    font-size: 2px;
+    line-height: 1;
     letter-spacing: unset;
     transform: unset;
     overflow: hidden;
     width: fit-content;
-    margin: 0 auto;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="font-size: 20px;"><text y="15">👋</text></svg>'), auto;
 }
 
 .project-list {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -56,7 +55,7 @@ ul li:before {
 }
 
 marquee {
-    margin: 1rem -16px;
+    margin: 1rem 0;
     font-size: 1.5rem;
 }
 
@@ -67,8 +66,7 @@ marquee {
     }
 
     .ascii {
-        font-size: calc(.55vw * .8);
-        line-height: calc(.55vw * .8);
+        font-size: 3px;
     }
 }
 
@@ -83,15 +81,9 @@ marquee {
 
     .ascii {
         order: 1;
-        font-size: calc(.55vw / 2 * .8);
-        line-height: calc(.55vw / 2 * .8);
     }
 
     .content, .ascii {
         max-width: 50%;
-    }
-
-    .project-list {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
